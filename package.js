@@ -1,6 +1,6 @@
 Package.describe({
 	name: 'dyaa:digitalocean',
-	version: '0.1.1',
+	version: '0.1.1_1',
 	// Brief, one-line summary of the package.
 	summary: 'DigitalOcean API V2 wrapper',
 	// URL to the Git repository containing the source code for this package.
@@ -22,6 +22,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
 	api.use('tinytest');
-	api.use('digitalocean');
-	api.addFiles('digitalocean-tests.js');
+	api.use('dyaa:digitalocean', 'server');
+	api.addFiles('tests/get-all-droplets.js', 'server');
 });
