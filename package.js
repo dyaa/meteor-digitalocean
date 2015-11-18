@@ -1,6 +1,6 @@
 Package.describe({
 	name: 'dyaa:digitalocean',
-	version: '0.1.1_2',
+	version: '0.1.1_3',
 	// Brief, one-line summary of the package.
 	summary: 'DigitalOcean API V2 wrapper',
 	// URL to the Git repository containing the source code for this package.
