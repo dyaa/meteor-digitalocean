@@ -59,7 +59,7 @@ api.accountGet(true)
 ```
 
 would return
-```
+```js
 	{
 		account: {
 			droplet_limit: 25,
@@ -81,7 +81,7 @@ would return
 
 and with raw set to false (the default), it would return
 
-```
+```js
 	{
 		droplet_limit: 25,
 		email: 'email@domain.com',
